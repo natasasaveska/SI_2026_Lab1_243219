@@ -51,10 +51,14 @@ class Library {
         books.add(book);
     }
 
-    // TODO: Implement in branch feature-search-books
     public boolean searchBookByTitle(String title) {
-        return false;
+    for (Book book : books) {
+        if (book.getTitle().equalsIgnoreCase(title)) {
+            return true;
+        }
     }
+    return false;
+}
 
     // TODO: Implement in branch feature-borrow-book
     public void borrowBook(String title) {
