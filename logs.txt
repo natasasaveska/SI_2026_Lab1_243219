@@ -1,0 +1,18 @@
+* 77cfd86 Remove unnecessary file
+* 6d53319 Add test calls in main
+* bbc68d6 Add test calls in main
+* 0abd309 Final commit
+*   6897d8e Merge branch 'feature-borrow-book'
+|\  
+| * 2532b97 Implement borrow book
+* |   efec350 Merge branch 'feature-genre-report'
+|\ \  
+| |/  
+|/|   
+| * ce2b431 Implement printBooksByGenre
+* | 5424fde Update borrow message on master
+* | 948425a Final commit
+|/  
+* 2637985 Implement searchBookByTitle
+* 1794149 Add starter code
+* d97aef3 Initial commit
