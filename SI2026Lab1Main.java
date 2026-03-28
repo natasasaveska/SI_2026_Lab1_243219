@@ -66,7 +66,7 @@ class Library {
             if (book.getTitle().equalsIgnoreCase(title)) {
                 if (!book.isBorrowed()) {
                     book.setBorrowed(true);
-                   System.out.println("Borrowed successfully");
+                   System.out.println("Book checked out");
                 } else {
                     System.out.println("Book is already borrowed.");
                 }
@@ -130,10 +130,8 @@ public class SI2026Lab1Main {
 
         System.out.println("Library initialized.");
         System.out.println("Search Clean Code: " + library.searchBookByTitle("Clean Code"));
-System.out.println("Search Harry Potter: " + library.searchBookByTitle("Harry Potter"));
-
-library.borrowBook("The Hobbit");
-
-library.printBooksByGenre("Programming");
+    System.out.println("Search Harry Potter: " + library.searchBookByTitle("Harry Potter"));
+    library.borrowBook("The Hobbit");
+    library.printBooksByGenre("Programming");
     }
 }
