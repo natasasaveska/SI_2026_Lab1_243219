@@ -93,7 +93,12 @@ class Library {
 
     // TODO: Implement in branch feature-genre-report
     public void printBooksByGenre(String genre) {
+    for (Book book : books) {
+        if (book.getGenre().equalsIgnoreCase(genre)) {
+            System.out.println(book);
+        }
     }
+}
 
     public int countAvailableBooks() {
         int count = 0;
