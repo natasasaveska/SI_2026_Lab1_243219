@@ -129,5 +129,11 @@ public class SI2026Lab1Main {
         library.addBook(new Book("1984", "George Orwell", "Dystopian"));
 
         System.out.println("Library initialized.");
+        System.out.println("Search Clean Code: " + library.searchBookByTitle("Clean Code"));
+System.out.println("Search Harry Potter: " + library.searchBookByTitle("Harry Potter"));
+
+library.borrowBook("The Hobbit");
+
+library.printBooksByGenre("Programming");
     }
 }
