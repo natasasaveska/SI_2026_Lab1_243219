@@ -1,6 +1,3 @@
-
-* 6d53319 Add test calls in main
-* bbc68d6 Add test calls in main
 * 0abd309 Final commit
 *   6897d8e Merge branch 'feature-borrow-book'
 |\  
