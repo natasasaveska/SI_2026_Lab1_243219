@@ -1,0 +1,89 @@
+1. git init
+Иницијализирав локален Git репозиториум.
+
+2. git add .
+Ги додадов сите датотеки во staging area.
+
+3. git commit -m "Initial commit"
+Направив почетен commit.
+
+4. git add SI2026Lab1Main.java
+Ја додадов Java датотеката.
+
+5. git commit -m "Add starter code"
+Го додадов почетниот код.
+
+6. git push -u origin master
+Ги пратив промените на GitHub.
+
+7. git checkout -b feature-search-books
+Креирав нова гранка за пребарување книги.
+
+8. git add .
+9. git commit -m "Implement searchBookByTitle"
+Го имплементирав методот за пребарување.
+
+10. git checkout master
+Се вратив на master гранката.
+
+11. git merge feature-search-books
+Ја споив гранката feature-search-books.
+Ова спојување беше fast-forward бидејќи немаше нови commit-и на master.
+
+12. git checkout -b feature-borrow-book
+Креирав гранка за позајмување книги.
+
+13. git add .
+14. git commit -m "Implement borrow book"
+Го имплементирав методот borrowBook.
+
+15. git checkout master
+Се вратив на master.
+
+16. git add .
+17. git commit -m "Update borrow message on master"
+Направив измена во master.
+
+18. git checkout -b feature-genre-report
+Креирав гранка за извештај по жанр.
+
+19. git add .
+20. git commit -m "Implement printBooksByGenre"
+Го имплементирав методот за печатење по жанр.
+
+21. git checkout master
+Се вратив на master.
+
+22. git merge feature-genre-report
+Ја споив гранката feature-genre-report.
+Ова спојување беше merge commit, бидејќи и двете гранки имаа свои commit-и.
+
+23. git merge feature-borrow-book
+Ја споив гранката feature-borrow-book.
+И ова спојување беше merge commit.
+
+24. git add logs.txt 243219.txt
+Ги додадов документацијата и логот.
+
+25. git commit -m "Final commit"
+Направив финален commit.
+
+26. git push origin master
+Ги пратив финалните промени на GitHub.
+
+27. git add SI2026Lab1Main.java
+28. git commit -m "Add test calls in main"
+Додав тест повици во main методот.
+
+29. git add .
+30. git commit -m "Remove unnecessary file"
+Отстранив непотребна датотека.
+
+31. git push origin master
+Ги синхронизирав сите промени.
+
+Конфликт:
+Во финалниот git log нема посебен commit за resolve conflict, затоа се смета дека нема конфликт.
+
+Merge стратегија:
+Користени се fast-forward и recursive (merge commit) спојувања.
